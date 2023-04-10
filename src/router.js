@@ -20,6 +20,7 @@ import ResetPassword from '@/views/user/ResetPassword'
 import Documentation from '@/views/Documentation'
 import Bgplay from '@/components/ripe/Bgplay'
 import PageNotFound from '@/views/PageNotFound'
+import ProbesReport from '@/components/notebooks/ProbesReport'
 
 Vue.use(Router)
 
@@ -239,6 +240,15 @@ export default new Router({
         default: MetisDeployment,
       },
       meta: { title: 'Metis Deployment - IHR' },
+    },
+    {
+      name: 'observable_test',
+      path: `${routerBase}observable/test`,
+      components: {
+        header: Header,
+        footer: Footer,
+        default: ProbesReport,
+      },
     },
 
     // Widgets

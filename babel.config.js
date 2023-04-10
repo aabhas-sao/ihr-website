@@ -1,5 +1,5 @@
 let config = {
-  presets: [['@vue/app', { useBuiltIns: 'entry' }]],
+  presets: [['@vue/app', { useBuiltIns: 'entry' }], ['@babel/preset-env']],
   plugins: [
     [
       'transform-imports',
@@ -10,6 +10,8 @@ let config = {
         },
       },
     ],
+    ['transform-import-meta'],
+    ['dynamic-import-node'],
   ],
 }
 

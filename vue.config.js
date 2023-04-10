@@ -10,13 +10,13 @@ module.exports = {
     open: 'Google Chrome',
   },
   pwa: {
-    name : 'Internet Health Report',
-    shortName : 'IHR',
-    themeColor : '#343434',
+    name: 'Internet Health Report',
+    shortName: 'IHR',
+    themeColor: '#343434',
     workboxOptions: {
       skipWaiting: true,
       clientsClaim: true,
-    }
+    },
   },
   chainWebpack: webpackConfig => {
     webpackConfig.module
@@ -45,7 +45,11 @@ module.exports = {
       enableInSFC: true,
     },
   },
-  transpileDependencies: [/[\\/]node_modules[\\/]quasar[\\/]/],
+  transpileDependencies: [
+    /[\\/]node_modules[\\/]quasar[\\/]/,
+    '@observablehq',
+    '55feb27b515b0427',
+  ],
   configureWebpack: {
     resolve: {
       alias: {
