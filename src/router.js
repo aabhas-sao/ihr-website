@@ -20,6 +20,7 @@ import ResetPassword from '@/views/user/ResetPassword'
 import Documentation from '@/views/Documentation'
 import Bgplay from '@/components/ripe/Bgplay'
 import PageNotFound from '@/views/PageNotFound'
+// import D3BarChart from '@/components/notebooks/D3BarChart'
 import ProbesReport from '@/components/notebooks/ProbesReport'
 
 Vue.use(Router)
