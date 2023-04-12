@@ -15,7 +15,7 @@
     "@d3/bar-chart": "https://api.observablehq.com/@d3/bar-chart@262.tgz?v=3",
     "@observablehq/runtime": "^5.5.2",
     "@quasar/extras": "^1.5.2",
-    "55feb27b515b0427": "https://api.observablehq.com/d/55feb27b515b0427.tgz?v=3",
+    "55feb27b515b0427": "file:lib/notebooks/55feb27b515b0427-7276.0.0.tgz",
     "autoprefixer": "^9.6.5",
     "axios": ">=0.21.1",
     "datejs": "^1.0.0-rc3",
@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "^0.5.0",
+    "@vue/babel-preset-app": "^5.0.8",
     "@vue/cli-plugin-babel": "^3.12.1",
     "@vue/cli-plugin-eslint": "^3.12.1",
     "@vue/cli-plugin-pwa": "^4.5.17",
